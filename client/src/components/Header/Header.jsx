@@ -1,4 +1,5 @@
 import "./Header.scss";
+<<<<<<< HEAD
 import { useEffect, useState, useContext } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -33,6 +34,10 @@ const Header = () => {
       </div>
     </header>
   );
+=======
+const Header = () => {
+    return <div>Header</div>;
+>>>>>>> e28b4ee473f97c01b3b3afecd46504bb05bb4f46
 };
 
 export default Header;
