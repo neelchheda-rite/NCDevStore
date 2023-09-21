@@ -13,7 +13,7 @@ import { Context } from "../../utils/context";
 
 const Header = () => {
   return (
-    <header className="main-header">
+    <header className="main-header"> 
       <div className="header-content">
         <ul className="left">
           <li>Home</li>
