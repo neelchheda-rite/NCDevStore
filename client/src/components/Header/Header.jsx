@@ -1,14 +1,17 @@
 import "./Header.scss";
-
+// eslint-disable-next-line
 import { useEffect, useState, useContext } from "react";
+// eslint-disable-next-line
 import { useNavigate } from "react-router-dom";
 
 import { TbSearch } from "react-icons/tb";
 import { CgShoppingCart } from "react-icons/cg";
 import { AiOutlineHeart } from "react-icons/ai";
-
+// eslint-disable-next-line
 import { Search } from "./Search/Search";
+// eslint-disable-next-line
 import { Cart } from "../Cart/Cart";
+// eslint-disable-next-line
 import { Context } from "../../utils/context";
 
 const Header = () => {
